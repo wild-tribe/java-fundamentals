@@ -18,16 +18,16 @@ public class URLEncoderTest {
 		// ' ' -> '+'
 		// 其余字符转换为字节，每个字节写为%号后面加两个16进制数
 		
-//		String unneededEncodeChars = "AFZafz069.-*_";
-//		System.out.println("unneeded encode chars: '" + unneededEncodeChars + "'->'" + URLEncoder.encode(unneededEncodeChars, "UTF-8") + "'");
-//		String space = " ";
-//		System.out.println("space: '" + space + "'->'" + URLEncoder.encode(space, "UTF-8") + "'");
-//		String plusSign = "+";
-//		System.out.println("plus sign: '" + plusSign + "'->'" + URLEncoder.encode(plusSign, "UTF-8") + "'");
-//		String specialChars = "/&?#=";
-//		System.out.println("special chars: '" + specialChars + "'->'" + URLEncoder.encode(specialChars, "UTF-8") + "'");
-//		String url = "http://www.baidu.com:8080/test?cid=1000&bsid=9888#map";
-//		System.out.println("url with special chars: '" + url + "'->'" + URLEncoder.encode(url, "UTF-8") + "'");
+		String unneededEncodeChars = "AFZafz069.-*_";
+		System.out.println("unneeded encode chars: '" + unneededEncodeChars + "'->'" + URLEncoder.encode(unneededEncodeChars, "UTF-8") + "'");
+		String space = " ";
+		System.out.println("space: '" + space + "'->'" + URLEncoder.encode(space, "UTF-8") + "'");
+		String plusSign = "+";
+		System.out.println("plus sign: '" + plusSign + "'->'" + URLEncoder.encode(plusSign, "UTF-8") + "'");
+		String specialChars = "/&?#=";
+		System.out.println("special chars: '" + specialChars + "'->'" + URLEncoder.encode(specialChars, "UTF-8") + "'");
+		String url = "http://www.baidu.com:8080/test?cid=1000&bsid=9888#map";
+		System.out.println("url with special chars: '" + url + "'->'" + URLEncoder.encode(url, "UTF-8") + "'");
 		
 	}
 
