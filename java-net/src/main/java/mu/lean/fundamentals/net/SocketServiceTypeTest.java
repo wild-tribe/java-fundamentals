@@ -30,7 +30,7 @@ public class SocketServiceTypeTest {
 		// IPTOS_THROUGHPUT (0x08)  最高吞吐量
 		// IPTOS_LOWDELAY (0x10)    最小延迟
 		
-		// 0到255之间
+		// 0到255之间Q
 		socket.setTrafficClass(0x02);
 		System.out.println("traffic class: " + socket.getTrafficClass());
 //		socket.setPerformancePreferences(int connectionTime, int latency, int bandwidth);
